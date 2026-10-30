@@ -1,0 +1,27 @@
+{
+  "name": "pluto-admin-template",
+  "type": "module",
+  "private": true,
+  "trustedDependencies": [
+    "@parcel/watcher",
+    "@plutocms/core",
+    "esbuild",
+    "unrs-resolver",
+    "vue-demi"
+  ],
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@plutocms/core": "^0.38.2",
+    "nuxt": "^4.6.3",
+    "vue": "^3.5.41",
+    "vue-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
