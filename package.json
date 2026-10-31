@@ -9,7 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@plutocms/core": "^0.41.0",
+    "@plutocms/core": "^0.42.0",
     "nuxt": "^4.6.3",
     "vue": "^3.5.41",
     "vue-router": "^5.2.0"
