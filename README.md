@@ -4,6 +4,12 @@ A [Pluto](https://pluto.vulmix.dev) app with no public site. It has the Pluto ad
 
 The home page (`/`) redirects to `/admin`.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fplutocms%2Fpluto-admin-template&project-name=my-cms&repository-name=my-cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/plutocms/pluto-admin-template)
+
+A button copies this template to a new repository in your GitHub account, with the Git CMS, and
+deploys it. Then open `/admin/login` on the new site and select **Create the GitHub App**.
+
 ## Backends
 
 - **Git CMS (default):** no database. Content is Markdown files in this repository, and each save in the admin is a commit. The app extends [`@plutocms/core`](https://github.com/plutocms/pluto).
@@ -42,7 +48,7 @@ The routes are read-only and anonymous. They answer JSON. See [Public API](https
 
 ## Deploy
 
-Push the project to a GitHub repository. Deploy it to a host with a server runtime, for example Vercel. Then:
+Push the project to a GitHub repository. Deploy it to a host with a server runtime, for example Vercel. With the Git CMS, **Settings → Deploy** in the admin links to each host. Then:
 
 - **Git CMS:** open `/admin/login` on the deployed site and select **Create the GitHub App**. The page guides you through the rest.
 - **Supabase:** set `SUPABASE_URL`, `SUPABASE_KEY` and `DATABASE_URL` in the settings of your host. See `.env.example`.
