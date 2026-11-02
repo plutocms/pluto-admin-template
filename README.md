@@ -28,7 +28,7 @@ Then open `/admin` on the dev server. With the Git CMS, you are signed in as a l
 
 ## Add content types
 
-A new app has no content types. Add them with a [local layer](https://pluto.vulmix.dev/docs/core/layers) or add a feature layer, for example `@plutocms/supabase-blog` or `@plutocms/supabase-shop`.
+A new app has no content types. Add them with a [local layer](https://pluto.vulmix.dev/docs/extend/layers) or add a feature layer, for example `@plutocms/supabase-blog` or `@plutocms/supabase-shop`.
 
 ## Read the content from another site
 
@@ -38,7 +38,7 @@ Make a content type public with `api.public`. Then a site in any framework reads
 curl "https://your-cms.example.com/api/pluto/v1/content/<type>?limit=5"
 ```
 
-The routes are read-only and anonymous. They answer JSON. See [Public API](https://pluto.vulmix.dev/docs/core/public-api) and [Use Pluto headless](https://pluto.vulmix.dev/docs/guides/use-pluto-headless).
+The routes are read-only and anonymous. They answer JSON. See [Public API](https://pluto.vulmix.dev/docs/build/public-api) and [Use Pluto headless](https://pluto.vulmix.dev/docs/build/use-pluto-headless).
 
 ## Deploy
 
