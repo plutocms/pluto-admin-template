@@ -1,5 +1,10 @@
 # Pluto Admin Template
 
+> [!IMPORTANT]
+> This repository is archived. The template moved to
+> [`plutocms/templates`](https://github.com/plutocms/templates/tree/main/templates/dashboard), where it
+> gets the updates. Start a new site with `npm create pluto@latest my-site -t dashboard`.
+
 A [Pluto](https://pluto.vulmix.dev) app with no public site. It has the Pluto admin at `/admin` and the public API. Use it as a headless CMS for a site in any stack.
 
 The home page (`/`) redirects to `/admin`.
